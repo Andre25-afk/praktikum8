@@ -161,5 +161,72 @@ Tabel berisi:
     * UTS, UAS, Tugas: Nilai yang dimasukkan.
     * Rata-rata: Rata-rata dari nilai UTS, UAS, dan Tugas.
 
+## 3. Mengubah Data Mahasiswa
 
+## Contoh Input :
 
+![foto](Foto/ss22.png)
+
+## Output :
+
+![foto](Foto/ss23.png)
+
+* Penjelasan:
+    * Data "Budi" ditemukan, dan program menampilkan data lama.
+    * Program kemudian meminta input baru untuk NIM, nilai UTS, nilai UAS, dan nilai tugas.
+    * Program menghitung ulang nilai rata-rata dan memperbarui data mahasiswa.
+    * Pesan konfirmasi bahwa data berhasil diubah ditampilkan
+
+## 4. Menghapus Data Mahasiswa
+
+### Contoh Input :
+
+![foto](Foto/ss24.png)
+
+### Hasil Output :
+
+![foto](Foto/ss25.png)
+
+* Penjelasan:
+    * Program mencari data mahasiswa dengan nama "Budi".
+    * Jika ditemukan, data tersebut dihapus dari list self.data_mahasiswa.
+    * Pesan konfirmasi bahwa data berhasil dihapus ditampilkan.
+
+## 5. Menampilkan Daftar Nilai Setelah Penghapusan :
+
+### Contoh Input :
+
+![foto](Foto/ss26.png)
+
+### Hasil Output :
+
+![foto](Foto/ss27.png)
+
+* Penjelasan:
+  Setelah penghapusan data mahasiswa "Budi", ketika memilih untuk menampilkan data, list self.data_mahasiswa sudah kosong, sehingga tidak ada data yang ditampilkan. Pesan "Daftar Nilai Mahasiswa:" akan tetap muncul, namun tabel akan kosong.
+
+## 6. Menghapus data yang Tidak Ada
+
+### Contoh Input :
+
+![foto](Foto/ss28.png)
+
+### Hasil Output :
+
+![foto](Foto/ss29.png)
+
+* Penjelasan:
+  Program tidak menemukan data mahasiswa dengan nama "Rina" dalam list self.data_mahasiswa. Maka program menampilkan pesan bahwa data dengan nama tersebut tidak ditemukan.
+
+## 7. Keluar Dari Program
+
+### Contoh Input :
+
+![foto](Foto/ss29.png)
+
+### Contoh Output :
+
+![foto](Foto/ss30.png)
+
+* Penjelasan:
+  Ketika memilih opsi 5 (Keluar), program berhenti dengan pesan "Program selesai.", dan loop while dihentikan dengan break.

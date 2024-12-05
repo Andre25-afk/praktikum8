@@ -9,7 +9,7 @@ class DaftarNilaiMahasiswa:
             "nilai_uts": nilai_uts,
             "nilai_uas": nilai_uas,
             "nilai_tugas": nilai_tugas,
-            "rata_rata": (nilai_uts + nilai_uas + nilai_tugas) / 3  # Menghitung rata-rata
+            "rata_rata": (nilai_uts + nilai_uas + nilai_tugas) / 3
         }
         self.data_mahasiswa.append(mahasiswa)
         print(f"Data {nama} berhasil ditambahkan.")
@@ -42,7 +42,7 @@ class DaftarNilaiMahasiswa:
                 mhs["nilai_uts"] = float(input("Masukkan nilai UTS baru: "))
                 mhs["nilai_uas"] = float(input("Masukkan nilai UAS baru: "))
                 mhs["nilai_tugas"] = float(input("Masukkan nilai Tugas baru: "))
-                mhs["rata_rata"] = (mhs["nilai_uts"] + mhs["nilai_uas"] + mhs["nilai_tugas"]) / 3  # Mengupdate rata-rata
+                mhs["rata_rata"] = (mhs["nilai_uts"] + mhs["nilai_uas"] + mhs["nilai_tugas"]) / 3
                 print(f"Data {nama} berhasil diubah.")
                 return
         print(f"Data dengan nama {nama} tidak ditemukan.")

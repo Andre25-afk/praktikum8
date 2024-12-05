@@ -1,10 +1,6 @@
 # TUGAS PRAKTIKUM 8
-Buat program sederhana dengan mengaplikasikan penggunaan class. Buatlah
-class untuk menampilkan daftar nilai mahasiswa, dengan ketentuan:
-• Method tambah() untuk menambah data
-• Method tampilkan() untuk menampilkan data
-• Method hapus(nama) untuk menghapus data berdasarkan nama
-• Method ubah(nama) untuk mengubah data berdasarkan nama
+
+![foto](Foto/ss33.png)
 
 ## Step 1 : Deklarasi Class
 
@@ -230,3 +226,9 @@ Tabel berisi:
 
 * Penjelasan:
   Ketika memilih opsi 5 (Keluar), program berhenti dengan pesan "Program selesai.", dan loop while dihentikan dengan break.
+
+# FLOWCHART Daftar Nilai Mahasiswa
+
+![foto](Foto/ss32.png)
+
+Program ini adalah aplikasi sederhana berbasis Python yang digunakan untuk mengelola daftar nilai mahasiswa. Program ini menggunakan konsep Object-Oriented Programming (OOP) dengan memanfaatkan class dan method.

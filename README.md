@@ -245,3 +245,31 @@ tampilkan()
 hapus(nama: str)
 ubah(nama: str, nim: int, gender: str, nilai: int)
 menu_interaktif()
+
+# Kesimpulan Program
+Program Daftar Nilai Mahasiswa adalah aplikasi berbasis konsol sederhana yang dirancang untuk mengelola data mahasiswa secara efektif. Program ini memungkinkan pengguna untuk menambahkan, menampilkan, mengubah, dan menghapus data mahasiswa, serta menghitung nilai rata-rata secara otomatis.
+
+## Fungsi dan Tujuan Program
+Program ini berfungsi sebagai alat bantu untuk:
+  * Menambah Data: Memasukkan data mahasiswa, termasuk nama, NIM, nilai UTS, UAS, nilai tugas, dan menghitung rata-rata nilai.
+  * Menampilkan Data: Menyajikan data mahasiswa dalam bentuk tabel yang rapi dan mudah dibaca.
+  * Mengubah Data: Memungkinkan pengguna memperbarui data mahasiswa tertentu berdasarkan nama.
+  * Menghapus Data: Menghapus data mahasiswa dengan cepat berdasarkan nama.
+  * Keluar Program: Menghentikan program dengan aman.
+## Keunggulan Program
+  * Mudah Digunakan: Program memiliki menu interaktif yang sederhana dan mudah dipahami.
+  * Otomatisasi: Menghitung nilai rata-rata secara otomatis sehingga pengguna tidak perlu melakukannya manual.
+  * Struktur Terorganisir: Menggunakan konsep pemrograman berbasis objek (OOP), yang membuat kode lebih modular dan terstruktur.
+  * Responsif: Memberikan pesan feedback yang jelas, seperti keberhasilan penambahan data atau notifikasi jika data tidak ditemukan.
+## Keterbatasan Program
+  * Tidak Ada Penyimpanan Permanen: Data hanya disimpan selama program berjalan dan akan hilang setelah program dihentikan.
+  * Validasi Input Terbatas: Program tidak memeriksa format data, seperti memastikan NIM berupa angka atau nilai dalam rentang tertentu.
+  * Pencarian Berdasarkan Nama Saja: Jika ada mahasiswa dengan nama sama, program mungkin kesulitan membedakannya.
+## Kesimpulan Akhir
+Program ini adalah aplikasi dasar yang membantu pengguna dalam mengelola data mahasiswa dengan cara yang sederhana namun fungsional. Cocok digunakan untuk pemula yang ingin mempelajari konsep OOP sekaligus mengimplementasikan pengelolaan data. Dengan pengembangan lebih lanjut, seperti penyimpanan ke file atau validasi data yang lebih ketat, program ini bisa menjadi lebih bermanfaat dan fleksibel.
+
+
+
+
+
+

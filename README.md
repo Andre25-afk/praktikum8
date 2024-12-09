@@ -232,3 +232,16 @@ Tabel berisi:
 ![foto](Foto/ss32.png)
 
 Program ini adalah aplikasi sederhana berbasis Python yang digunakan untuk mengelola daftar nilai mahasiswa. Program ini menggunakan konsep Object-Oriented Programming (OOP) dengan memanfaatkan class dan method.
+
+# Diagram Class
+
+![foto](Foto/ss34.png)
+
+Pada gambar menampilkan sebuah class dari code program daftarnilaimahasiswa, dengan adanya diagram class ini kita mampu melihat mana saja diagram class atau tipe class yang terdapat pada code program ini :
+
+init()
+tambah(nama: str, nim: int, gender: str, nilai: int)
+tampilkan()
+hapus(nama: str)
+ubah(nama: str, nim: int, gender: str, nilai: int)
+menu_interaktif()
